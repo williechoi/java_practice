@@ -25,6 +25,8 @@ public class LogicalOperators {
 		} else {
 			System.out.println("You quit the game.");
 		}
+		
+		scanner.close();
 	}
 	
 }
