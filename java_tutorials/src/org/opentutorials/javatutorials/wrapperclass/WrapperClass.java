@@ -37,11 +37,7 @@ public class WrapperClass {
 			System.out.println("This is True!");
 		}
 		
-		
-		
-		
-		
-		
+		// primitive data types are a lot faster than reference data types.
 	}
 
 }
