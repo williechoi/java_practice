@@ -7,7 +7,6 @@ public class MethodMain {
 	public static void main(String[] args) {
 
 		// method = a block of code that is executed whenever it is called upon
-
 		hello();
 		hello();
 		hello();
@@ -24,6 +23,13 @@ public class MethodMain {
 			hello_name(name);	
 		}
 		
+		hello_name_and_age("Bro", 21);
+		
+		int x = 3;
+		int y = 4;
+		
+		int answer = add(x, y);
+		System.out.println("The answer of (3 + 4) is " + answer);
 
 	}
 	
@@ -34,5 +40,13 @@ public class MethodMain {
 	static void hello_name(String name) {	// with parameters
 		System.out.println("Hello, " + name);
 	}
-
+	
+	static void hello_name_and_age(String name, int age) {
+		System.out.println("Hello, " + name);
+		System.out.println("I am " + age);
+	}
+	
+	static int add(int x, int y) {
+		return x + y;
+	}
 }
