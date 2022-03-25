@@ -17,6 +17,6 @@ public class Human {
 	}
 	
 	void drink() {
-		System.out.println(this.name + " is drinking!");
+		System.out.println(this.name + " is drinking *burp*");
 	}
 }
