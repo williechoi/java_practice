@@ -24,7 +24,6 @@ public class ArrayOfObjects {
 		System.out.println(refrigerator2[1].name);
 		System.out.println(refrigerator2[2].name);
 		
-		
 	}
 
 }
