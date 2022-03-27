@@ -9,6 +9,7 @@ public class MethodOverriding {
 		
 		Dog dog = new Dog();
 		Animal animal = new Animal();
+		
 		dog.speak();
 		animal.speak();
 	}
