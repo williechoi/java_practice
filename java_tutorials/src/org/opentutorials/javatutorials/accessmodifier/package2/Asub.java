@@ -7,7 +7,7 @@ public class Asub extends A {
 		// TODO Auto-generated method stub
 		
 		Asub asub = new Asub();
-		System.out.println(asub.protectedMessage);
+//		System.out.println(asub.protectedMessage);
 		
 	}
 }
