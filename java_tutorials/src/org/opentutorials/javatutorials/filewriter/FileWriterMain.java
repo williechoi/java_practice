@@ -17,7 +17,6 @@ public class FileWriterMain {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 }
