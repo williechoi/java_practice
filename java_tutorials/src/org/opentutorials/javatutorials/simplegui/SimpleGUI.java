@@ -11,6 +11,7 @@ public class SimpleGUI {
 		// Simple Java GUI
 		// JFrame = a GUI window to add component to
 		
+		/*
 		JFrame frame = new JFrame();		// creates a frame
 		frame.setTitle("JFrame title goes here");	// sets title of frame
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // exit out of application
@@ -21,6 +22,8 @@ public class SimpleGUI {
 		ImageIcon image = new ImageIcon("wing.ico");	// create an ImageIcon
 		frame.setIconImage(image.getImage());			// change icon of frame
 		frame.getContentPane().setBackground(new Color(0x00FFFF)); // change background color
+		*/
+		MyFrame myframe = new MyFrame();
 		
 	}
 
