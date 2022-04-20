@@ -18,9 +18,7 @@ public class RecursionExample {
 		// TODO Auto-generated method stub
 		int sum = add(23, 10);
 		System.out.println(sum);
-		
 		System.out.println(factorial(5));
-
 	}
 
 }
