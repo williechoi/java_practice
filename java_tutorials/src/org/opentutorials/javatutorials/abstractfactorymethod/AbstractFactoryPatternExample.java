@@ -4,7 +4,6 @@ import java.io.*;
 public class AbstractFactoryPatternExample {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));  
 		  
 	    System.out.print("Enter the name of Bank from where you want to take loan amount: ");  
