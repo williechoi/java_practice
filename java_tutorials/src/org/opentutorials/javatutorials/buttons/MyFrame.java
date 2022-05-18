@@ -15,7 +15,6 @@ public class MyFrame extends JFrame {
 	JButton button;
 	JLabel label;
 	
-	
 	MyFrame() {
 		
 		ImageIcon icon = new ImageIcon("mouse.png");
