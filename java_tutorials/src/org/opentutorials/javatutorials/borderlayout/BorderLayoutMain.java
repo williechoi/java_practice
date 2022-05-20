@@ -45,7 +45,6 @@ public class BorderLayoutMain {
 		frame.add(panel3, BorderLayout.EAST);
 		frame.add(panel4, BorderLayout.SOUTH);
 		frame.add(panel5, BorderLayout.CENTER);
-
 	}
 
 }
