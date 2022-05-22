@@ -39,7 +39,6 @@ public class LayoutManager {
 		
 		frame.add(panel);
 		frame.setVisible(true);
-
 	}
 
 }
