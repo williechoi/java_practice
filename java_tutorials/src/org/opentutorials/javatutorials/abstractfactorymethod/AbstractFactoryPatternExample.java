@@ -10,7 +10,7 @@ public class AbstractFactoryPatternExample {
 	    String bankName = br.readLine();  
 	  
 	    System.out.println("");  
-	    System.out.print("Enter the type of loan e.g. home loan or business loan or education loan : ");  
+	    System.out.print("Enter the type of loan: e.g. home loan or business loan or education loan : ");  
 	  
 	    String loanName = br.readLine();  
 	    AbstractFactory bankFactory = FactoryCreator.getFactory("Bank");  
