@@ -9,7 +9,6 @@ public class ExceptionHandlingTest {
 
             System.out.println("Enter a whole number to divide by: ");
             int y = scanner.nextInt();
-
             int z = x / y;
 
             System.out.println("result: " + z);
