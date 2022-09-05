@@ -17,7 +17,7 @@ class Person {
 public class SerializationTest {
     public static void main(String[] args) {
         Person LeeJunghoo = new Person("이정후", "야구선수");
-        Person SonHeungmin = new Person("손흥민", "야구선수");
+        Person SonHeungmin = new Person("손흥민", "축구선수");
 
         try (FileOutputStream fos = new FileOutputStream("serial.txt");
                 ObjectOutputStream ois = new ObjectOutputStream(fos)){
