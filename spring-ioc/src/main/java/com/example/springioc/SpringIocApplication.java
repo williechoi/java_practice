@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class SpringIocApplication {
 
     public static void main(String[] args) {
-		SpringApplication.run(SpringIocApplication.class, args);
+        SpringApplication.run(SpringIocApplication.class, args);
         ApplicationContext context = ApplicationContextProvider.getContext();
 
         Base64Encoder base64Encoder = context.getBean(Base64Encoder.class);
